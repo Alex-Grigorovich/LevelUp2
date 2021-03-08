@@ -1,0 +1,300 @@
+body{
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+
+.navbar {
+     background: rgb (0,0,0);
+  }
+
+.navbar-brand{
+   font-family: 'Anton', sans-serif;
+   font-size: 27px;
+   margin-left: 10px;
+}
+.nav-item{
+   font-family: 'PT Sans Caption', sans-serif;
+   font-weight:400;
+    font-size: 17px;
+   margin-left: 45px;
+}
+.Up{
+   color: brown;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.header-title{
+     font-family: 'Anton', sans-serif;
+   margin-top: 80px;
+   margin-bottom: 100px;
+   color:rgb(255, 0, 255);
+   font-size: 50px;
+}
+
+.header-text{
+   color: #d0a912;
+   font-family: 'PT Sans Caption', sans-serif;
+   font-weight:400;
+   height: 100px;
+   font-size: 20px;
+}
+
+.header-text_lorem{
+  list-style-type: none;
+  margin-left: 70px;
+  margin-bottom: 40px;
+}
+.header-img{
+   width: 200px;
+   height: 300px;
+   margin-left: 150px;
+}
+
+.header-button{
+    margin-left: 70px;
+}
+
+.header-level{
+  color: rgb(3, 252, 239);
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('video/back5.mp4') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+.composition-content{
+  background: url("../img/composition2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+       padding-top: 100px;
+        padding-bottom: 100px;
+}
+
+.card{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+ align-items: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  width: 16rem;
+  background:none;
+  border: none;
+}
+
+.card-img{
+  width: 200px;
+   height: 300px;
+}
+
+.card-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
+
+.card-rounded{
+   border-radius: 150px; /* Радиус скругления */
+    border: 3px solid #d0a912; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    width: 200px;
+    height: 200px;
+}
+
+.card-button{
+  margin-top: 30px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background: purple;
+  border: none;
+  color: #fff;
+}
+
+.carousel-content{
+padding-top: 150px;
+padding-bottom: 150px;
+background-image: linear-gradient(to bottom right, rgb(247, 247, 247), rgb(241, 241, 241), rgb(235, 235, 235), rgb(229, 229, 229), rgb(223, 223, 223), rgb(217, 217, 217), rgb(211, 211, 211), rgb(205, 205, 205), rgb(199, 199, 199), rgb(193, 193, 193), rgb(187, 187, 187), rgb(181, 181, 181));
+}
+
+
+
+.carousel-caption{
+  color: black;
+}
+
+
+.carousel-image{
+width: 150px;
+height: 150px;
+border-radius: 150px;
+margin-bottom: 20px;
+}
+
+
+.carousel-control-prev-icon{
+z-index: 999;
+}
+
+.carousel-control-next-icon{
+z-index: 999;
+}
+
+
+.promo-text{
+  width: 540px;
+}
+
+.promo-heading{
+  margin-bottom: 20px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 700;
+  color: rgb(238, 255, 0);
+}
+
+.promo-bg{
+    padding-top: 120px;
+  padding-bottom: 80px;
+ background-image: linear-gradient(to bottom right, rgb(232, 233, 240), rgb(219, 212, 232), rgb(207, 191, 224), rgb(194, 169, 216), rgb(181, 148, 208), rgb(168, 127, 200), rgb(156, 106, 193), rgb(143, 85, 185), rgb(130, 64, 177), rgb(117, 42, 169), rgb(105, 21, 161), rgb(92, 0, 153));
+}
+
+.promo-content{
+font-family: 'PT Sans Caption', sans-serif;
+font-size:15px;
+margin-bottom: 30px;
+color: #fff;
+}
+
+.promo-photo{
+  width: 400px;
+  height: 450px;
+}
+
+.promo-character{
+
+font-size:0;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.promo-character-child{
+padding: 30px;
+font-family: 'PT Sans Caption', sans-serif;
+font-size:30px;
+color: #fff;
+width:20%;
+margin:0;
+padding:0;
+list-style-type: none
+}
+
+
+
+.form-bg{
+  background-image: linear-gradient(to top right, rgb(255, 255, 255), rgb(251, 243, 248), rgb(247, 230, 240), rgb(242, 218, 233), rgb(238, 206, 225), rgb(234, 193, 218), rgb(230, 181, 210), rgb(226, 168, 203), rgb(222, 156, 195), rgb(217, 144, 188), rgb(213, 131, 180), rgb(209, 119, 173));
+  padding-bottom: 160px;
+}
+.order-brand{
+  margin-top: 100px;
+  margin-bottom: 30px;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.order-time{
+font-family: 'PT Sans Caption', sans-serif;
+color: purple;
+margin-bottom: 70px;
+}
+
+
+
+.form-oldprice{
+ font-size: 25px;
+  color: purple;
+}
+
+.form-newprice{
+ font-size: 45px;
+ font-weight: 700;
+ color: purple;
+}
+
+
+.new-order{
+  width: 450px;
+}
+
+
+.order-submit{
+  margin-top: 20px;
+  background: purple;
+  color: #fff;
+}
+
+
+
+footer{
+  background: black;
+  height: 100px;
+}
+.footer-header{
+  color: #fff;
+}
+
